@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Thought Leadership Engine · Shruti's Brewed Thoughts</title>
+    <meta name="description" content="A rough thought in. A publish-ready LinkedIn post, real stats, and on-brand creative out." />
+    <!-- Tailwind via CDN: zero build setup. Fine for launch; swap for a real Tailwind install later if you want. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Hidden form so Netlify detects and stores Pro waitlist emails (Netlify → Forms). -->
+    <form name="pro-waitlist" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" />
+      <input name="bot-field" />
+    </form>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
